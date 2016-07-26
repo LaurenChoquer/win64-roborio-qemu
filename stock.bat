@@ -7,7 +7,6 @@ echo Extracting Kernel...
 "C:\Program Files\7-Zip\7z.exe" x 2016.2-zed-release.tar.xz
 "C:\Program Files\7-Zip\7z.exe" x -o2016.2-zed-release 2016.2-zed-release.tar
 echo Done.
-pause
 echo Getting kernel files...
 mkdir linux
 move 2016.2-zed-release\zed\devicetree.dtb linux/devicetree.dtb
